@@ -8,7 +8,8 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "server": "nodemon ./server/index.js"
+    "server": "nodemon ./server/index.js",
+    "babel": "./node_modules/.bin/webpack -d --watch"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
