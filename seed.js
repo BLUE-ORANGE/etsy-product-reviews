@@ -1,92 +1,59 @@
-
 let Sequelize = require('sequelize');
-let sqlz = new Sequelize('etsy', 'student', 'student', {
+let sqlz = new Sequelize('etsyv1', 'student', 'student', {
   host: 'localhost',
   port: 5432,
   dialect: 'postgres'
 });
 
-
 const Review = sqlz.define('reviews', {
-  description: Sequelize.TEXT,
-  rating: Sequelize.INTEGER
+  review: Sequelize.TEXT,
+  rating: Sequelize.INTEGER,
+  userName: Sequelize.TEXT,
+  productId: Sequelize.INTEGER
 },{
   schema: 'public'
 });
 
-const Product = sqlz.define('product', {
-  name: Sequelize.TEXT,
-  description: Sequelize.TEXT,
-  price: Sequelize["DOUBLE PRECISION"],
-  imageUrl: Sequelize.TEXT
-},{
-  schema: 'public'
+Review.sync({force: false}).then(() => {
+  return Review.create({
+    review: 'this is a review test input field into my etsyv1 database',
+    rating: 3,
+    userName: 'hai',
+    productId: 5
+  })
 })
 
+var loremIpsum = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+var loremIpsumWords = loremIpsum.split(' ');
+var names = ['richard', 'ivy', 'andrew', 'trevor', 'gowri', 'zack', 'tom', 'hanyu', 'marlin', 'nick', 'joe', 'brian', 'eric', 'jordyn', 'james', 'zaid', 'wayne', 'henry', 'chase', 'moriah', 'anissa', 'andrea', 'austin', 'josh', 'jeffrey'];
 
-// sqlz
-//   .authenticate()
-//   .then(() => {
-//     console.log(`connected`)
-//   })
-//   .catch(err => {
-//     console.error(`unable to connect: ${err}`)
-//   })
+var randomNumberGenerator = (max) => {
+  return Math.floor(Math.random() * (max + 1))
+}
+
+var generateReview = (words) => {
+  var review = '';
+  for (var i = 0; i < words; i++) {
+    if (i < words -1) {
+      review += `${loremIpsumWords[randomNumberGenerator(loremIpsumWords.length - 1)]} `
+    }
+  }
+  return review;
+}
+
+var generateReviewObject = () => {
+  var array = [];
   
-  
-  
-  // User.sync({force: true}).then(() => {
-  //   return User.create({
-  //     name: 'trevor',
-  //     avatarurl: 'image.jpg'
-  //   })
-  // })
-  // Shop.sync({force: true}).then(() => {
-  //   return Shop.create({
-  //     avatarurl: 'image.jpg',
-  //     name: 'trevors-shop'
-  //   })
-  // })
-  
-  User.sync({force: true});
-  setTimeout(() => {
-    Shop.sync({force: true})
-  }, 7000);
+  for (var i = 0; i < 200; i++) {
+    for (var j = 0; j < 3; j++) {
+      array.push({
+        review: generateReview(25),
+        rating: randomNumberGenerator(5),
+        userName: names[randomNumberGenerator(names.length - 1)],
+        productId: i
+      })
+    }
+  }
 
-  setTimeout(() => {
-    Product.belongsTo(Shop);
-    Product.sync({force: true});
-
-  }, 7000)
-
-  setTimeout(() => {
-    UsersShopsFavorite.belongsTo(User);
-    UsersShopsFavorite.belongsTo(Shop)
-    UsersShopsFavorite.sync({force:true});
-
-  }, 7000)
-
-  setTimeout(() => {
-    UsersProductsFavorite.belongsTo(User);
-    UsersProductsFavorite.belongsTo(Product);
-    UsersProductsFavorite.sync({force:true});
-
-  }, 7000)
-  
-  
-  setTimeout(() => {
-    Review.belongsTo(User)
-    Review.belongsTo(Product);
-    
-    Review.sync({force: true});
-
-  }, 7000);
-  // Review.hasMany(User);
-  // Review.hasMany(Product);
-
-  setTimeout(() => {
-    ProductImageUrl.belongsTo(Product);
-    ProductImageUrl.sync({force: true});
-
-  }, 7000)
-
+  return array;
+}
