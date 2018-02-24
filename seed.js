@@ -14,15 +14,6 @@ const Review = sqlz.define('reviews', {
   schema: 'public'
 });
 
-Review.sync({force: false}).then(() => {
-  return Review.create({
-    review: 'this is a review test input field into my etsyv1 database',
-    rating: 3,
-    userName: 'hai',
-    productId: 5
-  })
-})
-
 var loremIpsum = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 var loremIpsumWords = loremIpsum.split(' ');
 var names = ['richard', 'ivy', 'andrew', 'trevor', 'gowri', 'zack', 'tom', 'hanyu', 'marlin', 'nick', 'joe', 'brian', 'eric', 'jordyn', 'james', 'zaid', 'wayne', 'henry', 'chase', 'moriah', 'anissa', 'andrea', 'austin', 'josh', 'jeffrey'];
@@ -57,3 +48,22 @@ var generateReviewObject = () => {
 
   return array;
 }
+
+var seedData = () => {
+  var data = generateReviewObject();
+  
+  Review.sync({force: true}).then(() => {
+    return Review.bulkCreate(data)
+    .then(val => {
+      console.log('saved val');
+    })
+    .catch(err => {
+      console.error(err);
+    })
+  }).catch(err => {
+    console.log('error')
+  })
+}
+
+seedData();
+console.log('hey tried to seed data');
