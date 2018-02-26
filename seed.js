@@ -45,7 +45,6 @@ var generateReviewObject = () => {
       })
     }
   }
-
   return array;
 }
 

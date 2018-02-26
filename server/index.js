@@ -10,7 +10,7 @@ app.use(bodyParser.text());
 
 app.use(express.static(__dirname + '/../src/client/'));
 
-app.use('/productId', storyRouter);
+app.use('/v1/products', storyRouter);
 
 let port = 3004;
 
