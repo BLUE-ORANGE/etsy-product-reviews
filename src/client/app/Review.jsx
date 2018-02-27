@@ -1,10 +1,10 @@
 import React from 'react';
 
-
 class Review extends React.Component {
-
   constructor(props) {
     super(props);
+    this.state = {
+    };
   }
 
   render() {
@@ -14,7 +14,6 @@ class Review extends React.Component {
       </div>
     );
   }
-
 }
 
 export default Review;

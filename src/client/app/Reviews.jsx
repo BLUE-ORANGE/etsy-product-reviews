@@ -1,6 +1,5 @@
 import React from 'react';
-import Review from './Review';
-
+import Review from './Review.jsx';
 
 class Reviews extends React.Component {
   constructor(props) {
