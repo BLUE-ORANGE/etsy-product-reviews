@@ -1,11 +1,11 @@
-var express = require('express');
-var router = express.Router();
-var review = require('')
+const express = require('express');
+
+const router = express.Router();
 
 router.route('/:id/reviews')
-  .get(function(req, res) {
-      let id = req.params.id;
-      res.send(id);
+  .get((req, res) => {
+    const { id } = req.params.id;
+    res.send(id);
   });
 
 module.exports = router;
