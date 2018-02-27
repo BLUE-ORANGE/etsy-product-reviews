@@ -52,7 +52,7 @@ const generateReviewObject = () => {
 const seedData = () => {
   const data = generateReviewObject();
   Review.sync({ force: true }).then(() => Review.bulkCreate(data)
-    .then(val => console.log('saved val hi'))
+    .then(() => console.log('saved val hi'))
     .catch(err => console.error('failed', err)))
     .catch(err => console.log('failed', err));
 };
@@ -60,12 +60,3 @@ const seedData = () => {
 seedData();
 
 console.log('hey tried to seed data');
-
-
-const getReviewsForProduct = (id, cb) => Review.findAll({
-  where: {
-    productId: id,
-  },
-}).then(data => cb(null, data)).catch(error => error);
-
-module.exports.getReviewsForProduct = getReviewsForProduct;

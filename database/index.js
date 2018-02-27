@@ -18,38 +18,10 @@ const Review = sqlz.define(
   },
 );
 
-// const getReviewByRating = (id, cb) => {
-//   Review.findById(id)
-//     .then((review) => {
-//       cb(null, review);
-//     })
-//     .catch((err) => {
-//       cb(err, null);
-//     });
-// };
-
-const getReviewsForProduct = id => Review.findAll({
+const getReviewsForProduct = (id, cb) => Review.findAll({
   where: {
     productId: id,
   },
-}).then(data => data).catch(error => error);
-
-// const getFiveImages = (cb) => {
-//   Review.findAll({
-//     where: {
-//       id: {
-//         gt: 200,
-//       },
-//     },
-//   })
-//     .then((data) => {
-//       cb(null, data);
-//     })
-//     .catch((err) => {
-//       cb(err, null);
-//     });
-// };
+}).then(data => cb(null, data)).catch(error => error);
 
 module.exports.getReviewsForProduct = getReviewsForProduct;
-
-
