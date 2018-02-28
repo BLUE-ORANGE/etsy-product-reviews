@@ -1,3 +1,20 @@
 {
-    "extends": "airbnb"
+    "extends": "airbnb",
+    "rules": {
+        "no-console": "off"
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "settings": {
+  "import/resolver": {
+    "node": {
+      "extensions": [
+        ".js",
+        ".jsx"
+      ]
+    }
+  }
+}
 }
