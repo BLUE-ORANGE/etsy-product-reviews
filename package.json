@@ -10,7 +10,8 @@
   "scripts": {
     "server": "nodemon ./server/index.js",
     "babel": "./node_modules/.bin/webpack -d --watch",
-    "seedData": "node seed.js"
+    "seedData": "node seed.js",
+    "test": "jest"
   },
   "dependencies": {
     "body-parser": "^1.18.2",

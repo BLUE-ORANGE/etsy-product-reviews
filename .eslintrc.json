@@ -7,7 +7,14 @@
         "browser": true,
         "node": true
     },
-    "settings" : {
-        "import/extensions": [".js", ".jsx"]
+    "settings": {
+  "import/resolver": {
+    "node": {
+      "extensions": [
+        ".js",
+        ".jsx"
+      ]
     }
+  }
+}
 }
