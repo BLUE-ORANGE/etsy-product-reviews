@@ -14,9 +14,11 @@ class Reviews extends React.Component {
     $.ajax({
       url: 'http://127.0.0.1:3004/v1/products/120/reviews',
       method: 'GET',
-      success: (reviews) => {
+      success: (reviewsData) => {
         console.log('successfully got review data');
-        this.state.reviews = reviews;
+        this.setState({
+          reviews: reviewsData,
+        });
         console.log(this.state.reviews);
       },
       error: () => {
@@ -29,7 +31,7 @@ class Reviews extends React.Component {
     return (
       <div>
         this will be where all the reviews will be rendered
-        <Review reviews={this.state.reviews} />
+        {this.state.reviews.map(review => <Review review={review} key={review.id} />)}
         <button onClick={() => this.fetch()} type="button">Fetch reviews here!</button>
       </div>
     );

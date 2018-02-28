@@ -4,11 +4,14 @@ class Review extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      reviews: this.props.reviews,
+      reviews: ['hey'],
     };
   }
 
   showReviewData() {
+    this.setState({
+      reviews: this.props.review,
+    });
     console.log(this.state.reviews);
   }
 
