@@ -24,4 +24,10 @@ const getReviewsForProduct = (id, cb) => Review.findAll({
   },
 }).then(data => cb(null, data)).catch(error => error);
 
+const getAllReviews = (id, cb) => Review.findAll({
+  where: {
+    productId: id,
+  },
+}).then(data => cb(null, data)).catch(error => error);
+
 module.exports.getReviewsForProduct = getReviewsForProduct;

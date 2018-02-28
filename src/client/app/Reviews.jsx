@@ -16,7 +16,7 @@ class Reviews extends React.Component {
       method: 'GET',
       success: (reviews) => {
         console.log('successfully got review data');
-        reviews.forEach(review => this.state.reviews.push(review));
+        this.state.reviews = reviews;
         console.log(this.state.reviews);
       },
       error: () => {
@@ -29,7 +29,7 @@ class Reviews extends React.Component {
     return (
       <div>
         this will be where all the reviews will be rendered
-        <Review />
+        <Review reviews={this.state.reviews} />
         <button onClick={() => this.fetch()} type="button">Fetch reviews here!</button>
       </div>
     );
@@ -37,3 +37,4 @@ class Reviews extends React.Component {
 }
 
 export default Reviews;
+
