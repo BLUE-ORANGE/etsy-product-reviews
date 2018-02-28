@@ -1,6 +1,6 @@
 import React from 'react';
-import Review from './Review.jsx';
 import $ from 'jquery';
+import Review from './Review.jsx';
 
 class Reviews extends React.Component {
   constructor(props) {
@@ -17,6 +17,7 @@ class Reviews extends React.Component {
       success: (reviews) => {
         console.log('successfully got review data');
         reviews.forEach(review => this.state.reviews.push(review));
+        console.log(this.state.reviews);
       },
       error: () => {
         console.error('failed to fetch reviews');
@@ -29,6 +30,7 @@ class Reviews extends React.Component {
       <div>
         this will be where all the reviews will be rendered
         <Review />
+        <button onClick={() => this.fetch()} type="button">Fetch reviews here!</button>
       </div>
     );
   }
