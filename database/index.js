@@ -26,7 +26,6 @@ const getReviewsForProduct = (id, cb) => Review.findAll({
 
 const getAllReviews = (id, cb) => Review.findAll({
   where: {
-    productId: id,
   },
 }).then(data => cb(null, data)).catch(error => error);
 
