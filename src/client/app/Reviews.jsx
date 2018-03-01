@@ -8,11 +8,18 @@ class Reviews extends React.Component {
     this.state = {
       reviews: [],
     };
+    this.random.bind(this);
+    this.fetch();
+  }
+
+  random() {
+    return Math.floor(Math.random() * 200);
   }
 
   fetch() {
+    const data = this.random();
     $.ajax({
-      url: 'http://127.0.0.1:3004/v1/products/120/reviews',
+      url: `http://127.0.0.1:3004/v1/products/${data}/reviews`,
       method: 'GET',
       success: (reviewsData) => {
         console.log('successfully got review data');
