@@ -88,7 +88,6 @@ class Reviews extends React.Component {
           <div id="reviewCount">({this.state.reviews.length})</div>
         </div>
         {this.state.reviews.map(review => <Review review={review} key={review.id} />)}
-        <button onClick={() => this.fetch()} type="button">Fetch reviews here!</button>
       </div>
     );
   }
