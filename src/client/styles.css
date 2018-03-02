@@ -42,14 +42,14 @@
 
 #userInfo {
   display: inline-block;
-  /* width: 143px;
-  height: 116px; */
-  padding-bottom: 10px;
+  width: 142px;
+  height: 116px;
+  text-align: center;
 }
 
 #otherStuff {
   display: inline-block;
-  width: 428px;
+  width: 427px;
 }
 
 #review {
@@ -92,6 +92,8 @@
   width: 450px;
 }
 
-/* #thumbnail {
-  image: url('../thumbnails/1.jpg');
-} */
+img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
