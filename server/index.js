@@ -6,7 +6,7 @@ const path = require('path');
 const app = express();
 
 app.use(bodyParser.text());
-// app.use(bodyParser.json());
+// app.use(bodyParser.json());ow to
 
 app.use(express.static(path.join(__dirname, '/../src/client/')));
 

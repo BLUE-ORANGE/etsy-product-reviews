@@ -1,25 +1,60 @@
 import React from 'react';
+import Star from './Star.jsx';
+import NoStars from './NoStars.jsx';
+
 
 class Review extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      reviews: ['hey'],
+      stars: [],
+      noStars: [],
     };
   }
 
-  showReviewData() {
+  componentDidMount() {
+    this.totalStars();
+  }
+
+  totalStars() {
+    const stars = [];
+    const noStars = [];
+    for (let i = 0; i < this.props.review.rating; i += 1) {
+      stars.push('hi');
+    }
+    for (let i = 0; i < (5 - this.props.review.rating); i += 1) {
+      noStars.push('hi');
+    }
     this.setState({
-      reviews: this.props.review,
+      stars: stars,
+      noStars: noStars,
     });
-    console.log(this.state.reviews);
   }
 
   render() {
     return (
-      <div>
-        this will be an individual review with thumbnails, stars, and the review
-        <button onClick={() => this.showReviewData()} type="button">Check review data</button>
+      <div id="review">
+        <div id="userInfo">
+          <div>
+            Thumbnail
+          </div>
+          Reviewed by <br />
+          {this.props.review.userName}
+        </div>
+        <div id="otherStuff">
+          <div id="ratingDate">
+            <div id="rating">
+              {this.state.stars.map(() => <Star />)}
+              {this.state.noStars.map(() => <NoStars />)}
+            </div>
+            <div id="date">
+              Mar 1, 2018
+            </div>
+          </div>
+          <div>
+            {this.props.review.review}
+          </div>
+        </div>
       </div>
     );
   }
