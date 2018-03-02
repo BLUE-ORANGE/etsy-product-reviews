@@ -65,6 +65,10 @@
   /* display: inline-block; */
 }
 
+#otherStuff {
+  width: 428px;
+}
+
 #rating {
   display: inline-block;
 }
@@ -87,3 +91,7 @@
 .productReview {
   width: 450px;
 }
+
+/* #thumbnail {
+  image: url('../thumbnails/1.jpg');
+} */

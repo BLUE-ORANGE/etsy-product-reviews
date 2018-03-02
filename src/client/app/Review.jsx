@@ -35,9 +35,9 @@ class Review extends React.Component {
     return (
       <div id="review">
         <div id="userInfo">
-          <div>
-            Thumbnail
-          </div>
+          <img src="../thumbnails/1.jpg">
+          
+          </img>
           Reviewed by <br />
           {this.props.review.userName}
         </div>
