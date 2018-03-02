@@ -38,6 +38,11 @@
   color: #444;
 }
 
+#ratingDate {
+  display: inline-block;
+  width: 570px;
+}
+
 #rating {
   display: inline-block;
 }
@@ -45,4 +50,9 @@
 #date {
   display: inline-block;
   float: right;
+}
+
+.star {
+  fill: #FFA300;
+  width: 17px;
 }

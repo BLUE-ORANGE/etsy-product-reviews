@@ -12,15 +12,24 @@ class Review extends React.Component {
     };
   }
 
-  // totalStars() {
-  //   let arr = [];
-  //   for (let i = 0; i < this.props.review.rating; i++) {
-  //     arr.push('hi');
-  //   }
-  //   this.setState({
-  //     stars: 
-  //   })
-  // }
+  componentDidMount() {
+    this.totalStars();
+  }
+
+  totalStars() {
+    const stars = [];
+    const noStars = [];
+    for (let i = 0; i < this.props.review.rating; i += 1) {
+      stars.push('hi');
+    }
+    for (let i = 0; i < (5 - this.props.review.rating); i += 1) {
+      noStars.push('hi');
+    }
+    this.setState({
+      stars: stars,
+      noStars: noStars,
+    });
+  }
 
   render() {
     return (
@@ -34,9 +43,7 @@ class Review extends React.Component {
         <div>
           <div id="ratingDate">
             <div id="rating">
-              {this.props.review.rating}
-              <Star />
-              <Star />
+              {this.state.stars.map(() => <Star />)}
             </div>
             <div id="date">
               Mar 1, 2018
