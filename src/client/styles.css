@@ -56,3 +56,8 @@
   fill: #FFA300;
   width: 17px;
 }
+
+.noStars {
+  fill: gray;
+  width: 17px;
+}

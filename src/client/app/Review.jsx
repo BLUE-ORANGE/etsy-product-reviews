@@ -1,14 +1,14 @@
 import React from 'react';
 import Star from './Star.jsx';
+import NoStars from './NoStars.jsx';
 
 
 class Review extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      reviews: ['hey'],
-      pictures: [],
       stars: [],
+      noStars: [],
     };
   }
 
@@ -44,6 +44,7 @@ class Review extends React.Component {
           <div id="ratingDate">
             <div id="rating">
               {this.state.stars.map(() => <Star />)}
+              {this.state.noStars.map(() => <NoStars />)}
             </div>
             <div id="date">
               Mar 1, 2018
