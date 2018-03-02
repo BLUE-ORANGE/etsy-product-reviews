@@ -5,6 +5,7 @@ class Review extends React.Component {
     super(props);
     this.state = {
       reviews: ['hey'],
+      pictures: [],
     };
   }
 
@@ -18,12 +19,19 @@ class Review extends React.Component {
   render() {
     return (
       <div id="review">
-        <div>
-          {this.props.review.userName}
+        <div id="userInfo">
+          <div>
+          </div>
+          Reviewed by {this.props.review.userName}
         </div>
         <div>
-          {this.props.review.rating}
-          {this.props.review.review}
+          <div>
+            {this.props.review.rating}
+            Mar 1, 2018
+          </div>
+          <div>
+            {this.props.review.review}
+          </div>
         </div>
         this will be an individual review with thumbnails, stars, and the review
         <button onClick={() => this.showReviewData()} type="button">Check review data</button>
