@@ -1,4 +1,6 @@
 import React from 'react';
+import Star from './Star.jsx';
+
 
 class Review extends React.Component {
   constructor(props) {
@@ -6,8 +8,19 @@ class Review extends React.Component {
     this.state = {
       reviews: ['hey'],
       pictures: [],
+      stars: [],
     };
   }
+
+  // totalStars() {
+  //   let arr = [];
+  //   for (let i = 0; i < this.props.review.rating; i++) {
+  //     arr.push('hi');
+  //   }
+  //   this.setState({
+  //     stars: 
+  //   })
+  // }
 
   render() {
     return (
@@ -22,6 +35,8 @@ class Review extends React.Component {
           <div id="ratingDate">
             <div id="rating">
               {this.props.review.rating}
+              <Star />
+              <Star />
             </div>
             <div id="date">
               Mar 1, 2018
