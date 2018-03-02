@@ -62,7 +62,7 @@
 }
 
 #ratingDate {
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 #rating {
@@ -82,4 +82,8 @@
 .noStars {
   fill: gray;
   width: 17px;
+}
+
+.productReview {
+  width: 450px;
 }

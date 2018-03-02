@@ -12,6 +12,8 @@ const Review = sqlz.define(
     rating: Sequelize.INTEGER,
     userName: Sequelize.TEXT,
     productId: Sequelize.INTEGER,
+    itemReview: Sequelize.TEXT,
+    date: Sequelize.TEXT,
   },
   {
     schema: 'public',

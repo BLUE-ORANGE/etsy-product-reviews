@@ -51,7 +51,7 @@ class Reviews extends React.Component {
       url: `/v1/products/${this.state.id}/reviews`,
       method: 'GET',
       success: (reviewsData) => {
-        console.log('successfully got review data');
+        console.log('successfully got review data', reviewsData);
         this.setState({
           reviews: reviewsData,
           rating: reviewsData.rating,

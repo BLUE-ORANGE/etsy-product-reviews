@@ -48,10 +48,10 @@ class Review extends React.Component {
               {this.state.noStars.map(() => <NoStars />)}
             </div>
             <div id="date">
-              Mar 1, 2018
+              {this.props.review.date}
             </div>
           </div>
-          <div>
+          <div className="productReview">
             {this.props.review.review}
           </div>
         </div>
