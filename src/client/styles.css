@@ -40,6 +40,18 @@
   padding-left: 8px;
 }
 
+#userInfo {
+  display: inline-block;
+  /* width: 143px;
+  height: 116px; */
+  padding-bottom: 10px;
+}
+
+#otherStuff {
+  display: inline-block;
+  width: 428px;
+}
+
 #review {
   font-family: "GraphikWebfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
   font-size: 12px;
@@ -51,7 +63,6 @@
 
 #ratingDate {
   display: inline-block;
-  width: 570px;
 }
 
 #rating {

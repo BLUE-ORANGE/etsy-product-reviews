@@ -38,9 +38,10 @@ class Review extends React.Component {
           <div>
             Thumbnail
           </div>
-          Reviewed by {this.props.review.userName}
+          Reviewed by <br />
+          {this.props.review.userName}
         </div>
-        <div>
+        <div id="otherStuff">
           <div id="ratingDate">
             <div id="rating">
               {this.state.stars.map(() => <Star />)}
