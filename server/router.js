@@ -10,6 +10,7 @@ router.route('/:id/reviews')
     if (id >= 0 && id <= 199) {
       db.getReviewsForProduct(id, (err, data) => {
         res.status(200);
+
         res.send(data);
       });
     } else {

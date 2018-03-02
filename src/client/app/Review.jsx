@@ -17,7 +17,14 @@ class Review extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="review">
+        <div>
+          {this.props.review.userName}
+        </div>
+        <div>
+          {this.props.review.rating}
+          {this.props.review.review}
+        </div>
         this will be an individual review with thumbnails, stars, and the review
         <button onClick={() => this.showReviewData()} type="button">Check review data</button>
       </div>

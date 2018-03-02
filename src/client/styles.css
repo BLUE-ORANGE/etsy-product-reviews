@@ -1,0 +1,19 @@
+#mainContainer {
+  width: 570px;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+#totalReviews {
+  width: 570px;
+  height: 55px;
+  font-family: tahoma;
+  font-size: 12px;
+}
+
+#reviewCount {
+  display: inline-block;
+  color: gray;
+  margin: 5px;
+}
