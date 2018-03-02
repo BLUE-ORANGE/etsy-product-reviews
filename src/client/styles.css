@@ -1,3 +1,16 @@
+/* @charset 'UTF-8'; */
+
+@font-face {
+  font-family: "GraphikWebfont";
+  src: url('/fonts/graphik-regular-webfont.eot');
+  src: url('/fonts/graphik-regular-webfont.eot') format('embedded-opentype'),
+       url('/fonts/graphik-regular-webfont.woff') format('woff'),
+       url('/fonts/graphik-regular-webfont.ttf')  format('truetype'),
+       url('/fonts/graphik-regular-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 #mainContainer {
   width: 570px;
   margin: 0;
@@ -8,8 +21,9 @@
 #totalReviews {
   width: 570px;
   height: 55px;
-  font-family: tahoma;
+  font-family: "GraphikWebfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
   font-size: 12px;
+  color: #444;
 }
 
 #reviewCount {
@@ -19,8 +33,9 @@
 }
 
 #review {
-  font-family: tahoma;
+  font-family: "GraphikWebfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
   font-size: 12px;
+  color: #444;
 }
 
 #rating {

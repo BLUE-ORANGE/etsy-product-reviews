@@ -9,13 +9,6 @@ class Review extends React.Component {
     };
   }
 
-  showReviewData() {
-    this.setState({
-      reviews: this.props.review,
-    });
-    console.log(this.state.reviews);
-  }
-
   render() {
     return (
       <div id="review">
@@ -38,8 +31,6 @@ class Review extends React.Component {
             {this.props.review.review}
           </div>
         </div>
-        this will be an individual review with thumbnails, stars, and the review
-        <button onClick={() => this.showReviewData()} type="button">Check review data</button>
       </div>
     );
   }
