@@ -1,6 +1,8 @@
 import React from 'react';
 import $ from 'jquery';
 import Review from './Review.jsx';
+import Star from './Star.jsx';
+import NoStars from './NoStars.jsx';
 
 class Reviews extends React.Component {
   constructor(props) {
@@ -9,6 +11,8 @@ class Reviews extends React.Component {
       reviews: [],
       id: 0,
       rating: 0,
+      stars: [],
+      noStars: [],
     };
   }
 
@@ -27,6 +31,21 @@ class Reviews extends React.Component {
     });
   }
 
+  totalStars() {
+    const stars = [];
+    const noStars = [];
+    for (let i = 0; i < this.state.rating; i += 1) {
+      stars.push('hi');
+    }
+    for (let i = 0; i < (5 - this.state.rating); i += 1) {
+      noStars.push('hi');
+    }
+    this.setState({
+      stars: stars,
+      noStars: noStars,
+    });
+  }
+
   fetch() {
     $.ajax({
       url: `/v1/products/${this.state.id}/reviews`,
@@ -35,9 +54,11 @@ class Reviews extends React.Component {
         console.log('successfully got review data');
         this.setState({
           reviews: reviewsData,
+          rating: reviewsData.rating,
         });
         this.averageReview();
-        console.log(this.state.reviews);
+        this.totalStars();
+        console.log(this.state.rating, 'inside ajax');
       },
       error: () => {
         console.error('failed to fetch reviews');
@@ -61,7 +82,10 @@ class Reviews extends React.Component {
     return (
       <div id="mainContainer">
         <div id="totalReviews">
-          <strong>Reviews</strong>   {this.state.rating}   <div id="reviewCount">({this.state.reviews.length})</div>
+          <strong id="strong">Reviews</strong>   
+          {this.state.stars.map(() => <Star />)}
+          {this.state.noStars.map(() => <NoStars />)}
+          <div id="reviewCount">({this.state.reviews.length})</div>
         </div>
         {this.state.reviews.map(review => <Review review={review} key={review.id} />)}
         <button onClick={() => this.fetch()} type="button">Fetch reviews here!</button>

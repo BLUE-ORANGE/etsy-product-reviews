@@ -26,10 +26,15 @@
   color: #444;
 }
 
+#strong {
+  padding-right: 10px;
+}
+
 #reviewCount {
   display: inline-block;
   color: gray;
   margin: 5px;
+  padding-left: 8px;
 }
 
 #review {
