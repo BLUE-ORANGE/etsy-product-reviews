@@ -22,3 +22,12 @@
   font-family: tahoma;
   font-size: 12px;
 }
+
+#rating {
+  display: inline-block;
+}
+
+#date {
+  display: inline-block;
+  float: right;
+}

@@ -21,13 +21,18 @@ class Review extends React.Component {
       <div id="review">
         <div id="userInfo">
           <div>
+            Thumbnail
           </div>
           Reviewed by {this.props.review.userName}
         </div>
         <div>
-          <div>
-            {this.props.review.rating}
-            Mar 1, 2018
+          <div id="ratingDate">
+            <div id="rating">
+              {this.props.review.rating}
+            </div>
+            <div id="date">
+              Mar 1, 2018
+            </div>
           </div>
           <div>
             {this.props.review.review}
