@@ -1,7 +1,10 @@
 const express = require('express');
 const db = require('../database/index');
+const path = require('path');
 
 const router = express.Router();
+
+router.use('/:id', express.static(path.join(__dirname, '/../src/client/')));
 
 router.route('/:id/reviews')
   .get((req, res) => {
