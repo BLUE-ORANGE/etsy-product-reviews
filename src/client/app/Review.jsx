@@ -26,8 +26,8 @@ class Review extends React.Component {
       noStars.push('hi');
     }
     this.setState({
-      stars: stars,
-      noStars: noStars,
+      stars,
+      noStars,
     });
   }
 
@@ -35,7 +35,7 @@ class Review extends React.Component {
     return (
       <div id="review">
         <div id="userInfo">
-          <img src="../thumbnails/3.jpg"></img>
+          <img className="userThumbnails" src={`../thumbnails/${this.props.id}.jpg`} />
           <br />
           Reviewed by <br />
           {this.props.review.userName}
@@ -52,6 +52,12 @@ class Review extends React.Component {
           </div>
           <div className="productReview">
             {this.props.review.review}
+          </div>
+          <div className="itemReview">
+            <img className="itemThumbnail" src="../thumbnails/4.jpg" />
+            <div className="itemreviews">
+              {this.props.review.itemReview}
+            </div>
           </div>
         </div>
       </div>
