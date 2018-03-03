@@ -2,7 +2,6 @@ import React from 'react';
 import Star from './Star.jsx';
 import NoStars from './NoStars.jsx';
 
-
 class Review extends React.Component {
   constructor(props) {
     super(props);
