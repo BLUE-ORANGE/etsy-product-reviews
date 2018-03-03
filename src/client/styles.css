@@ -23,8 +23,9 @@
   width: 570px;
   height: 15px;
   font-family: "GraphikWebfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   padding-top: 20px;
+  padding-bottom: 10px;
   color: #444;
 }
 
@@ -42,19 +43,21 @@
 
 #userInfo {
   display: inline-block;
-  /* width: 143px;
-  height: 116px; */
-  padding-bottom: 10px;
+  float: left;
+  width: 142px;
+  height: 90px;
+  text-align: center;
+  padding-bottom: 25px;
 }
 
 #otherStuff {
   display: inline-block;
-  width: 428px;
+  width: 427px;
 }
 
 #review {
   font-family: "GraphikWebfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   color: #444;
   border-bottom: 1px solid #e0e0eb;
   padding-bottom: 15px;
@@ -62,7 +65,11 @@
 }
 
 #ratingDate {
-  /* display: inline-block; */
+  padding-bottom: 13px;
+}
+
+#otherStuff {
+  width: 428px;
 }
 
 #rating {
@@ -86,4 +93,28 @@
 
 .productReview {
   width: 450px;
+  line-height: 22px;
+}
+
+.userThumbnails {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.itemThumbnail {
+  display: inline-block;
+  padding-top: 10px;
+  width: 75px;
+  height: 75px;
+
+}
+
+.itemreviews {
+  float: right;
+  line-height: 20px;
+  font-size: 11px;
+  width: 330px;
+  padding-top: 15px;
 }

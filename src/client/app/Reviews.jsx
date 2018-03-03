@@ -87,7 +87,7 @@ class Reviews extends React.Component {
           {this.state.noStars.map(() => <NoStars />)}
           <div id="reviewCount">({this.state.reviews.length})</div>
         </div>
-        {this.state.reviews.map(review => <Review review={review} key={review.id} />)}
+        {this.state.reviews.map((review, id) => <Review review={review} key={review.id} id={id} />)}
       </div>
     );
   }
