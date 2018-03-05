@@ -19,10 +19,6 @@
   border-top: 1px solid #e0e0eb;
 }
 
-review:hover {
-  text-decoration: underline;
-}
-
 #totalReviews {
   width: 570px;
   height: 15px;
