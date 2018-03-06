@@ -12,7 +12,7 @@ app.use(morgan('combined'));
 
 app.use(express.static(path.join(__dirname, '/../src/client/')));
 
-app.use('/v1/products', storyRouter);
+app.use('/v1/product', storyRouter);
 
 const port = 3004;
 
