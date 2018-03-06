@@ -13,6 +13,7 @@ class Reviews extends React.Component {
       rating: 0,
       stars: [],
       noStars: [],
+      thumbnails: ['https://i.imgur.com/bOgVa8h.jpg', 'https://i.imgur.com/NPWfoCx.jpg', 'https://i.imgur.com/RdnSJ6Q.jpg', 'https://i.imgur.com/XZ4GEKf.png'],
     };
   }
 
@@ -52,7 +53,7 @@ class Reviews extends React.Component {
 
   fetch() {
     $.ajax({
-      url: `/v1/products/${this.state.id}/reviews`,
+      url: `http://127.0.0.1:3004/v1/products/${this.state.id}/reviews`,
       method: 'GET',
       success: (reviewsData) => {
         console.log('successfully got review data', reviewsData);
@@ -91,7 +92,7 @@ class Reviews extends React.Component {
           {this.state.noStars.map(() => <NoStars />)}
           <div id="reviewCount">({this.state.reviews.length})</div>
         </div>
-        {this.state.reviews.map((review, id) => <Review review={review} key={review.id} id={id} />)}
+        {this.state.reviews.map((review, id) => <Review review={review} key={review.id} id={id} picture={this.state.thumbnails} />)}
       </div>
     );
   }

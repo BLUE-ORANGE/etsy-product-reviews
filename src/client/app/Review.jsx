@@ -34,7 +34,7 @@ class Review extends React.Component {
     return (
       <div id="review">
         <div id="userInfo">
-          <img className="userThumbnails" src={`./thumbnails/${this.props.id}.jpg`} />
+          <img className="userThumbnails" src={this.props.picture[this.props.id]} />
           <br />
           Reviewed by <br />
           {this.props.review.userName}
@@ -53,7 +53,7 @@ class Review extends React.Component {
             {this.props.review.review}
           </div>
           <div className="itemReview">
-            <img className="itemThumbnail" src="./thumbnails/4.jpg" />
+            <img className="itemThumbnail" src="https://i.imgur.com/XZ4GEKf.png" />
             <div className="itemreviews">
               {this.props.review.itemReview}
             </div>
