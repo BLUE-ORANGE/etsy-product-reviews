@@ -3,6 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Reviews from './Reviews.jsx';
+import styles from '../styles.css';
 
 const App = () => (
   <div>
