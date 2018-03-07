@@ -53,7 +53,7 @@ class Reviews extends React.Component {
 
   fetch() {
     $.ajax({
-      url: `http://127.0.0.1:3004/v1/product/${this.state.id}/reviews`,
+      url: `/v1/product/${this.state.id}/reviews`,
       method: 'GET',
       success: (reviewsData) => {
         console.log('successfully got review data', reviewsData);
