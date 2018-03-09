@@ -12,7 +12,7 @@
     "babel": "./node_modules/.bin/webpack -d --watch",
     "webpack": "webpack",
     "seedData": "node seed.js",
-    "server": "node run ./server/index.js",
+    "server": "node server/index.js",
     "test": "jest",
     "start": "npm run-script seedData && npm run-script webpack && npm run-script server"
   },
