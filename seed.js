@@ -1,10 +1,7 @@
 const Sequelize = require('sequelize');
+require('dotenv').config();
 
-const sqlz = new Sequelize('etsy-richard', 'student', 'student', {
-  host: 'localhost',
-  port: 5432,
-  dialect: 'postgres',
-});
+let sqlz = new Sequelize(process.env.DB_HOST);
 
 const Review = sqlz.define(
   'reviews', {
@@ -87,7 +84,7 @@ const generateReviewObject = () => {
 const seedData = () => {
   const data = generateReviewObject();
   Review.sync({ force: true }).then(() => Review.bulkCreate(data)
-    .then(() => console.log('saved val hi'))
+    .then(() => sqlz.close())
     .catch(err => console.error('failed', err)))
     .catch(err => console.log('failed', err));
 };

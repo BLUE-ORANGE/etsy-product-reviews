@@ -1,0 +1,16 @@
+version: '3.1'
+services:
+  web:
+    image:
+    ports:
+      - 5432:5432
+      - 3004:3004
+    environment:
+      DB_HOST: postgres://student:student@db/etsy-richard
+
+db:
+  image:
+  environment:
+    POSTGRES_USER: student
+    POSTGRES_DB: etsy-richard
+    POSTGRES_PW: student
