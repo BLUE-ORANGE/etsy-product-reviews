@@ -7,7 +7,6 @@ import styles from '../styles.css';
 
 const App = () => (
   <div>
-    <p> Richards Reviews!</p>
     <Reviews />
   </div>
 );

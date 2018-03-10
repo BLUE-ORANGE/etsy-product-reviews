@@ -18,11 +18,11 @@ class Reviews extends React.Component {
   }
 
   componentWillMount() {
-    this.random();
-    // const idPathname = window.location.pathname.slice(13, window.location.pathname.length - 1);
-    // this.setState({
-    //   id: Number(idPathname),
-    // });
+    // this.random();
+    const idPathname = window.location.pathname.slice(12, window.location.pathname.length - 1);
+    this.setState({
+      id: Number(idPathname),
+    });
   }
 
   componentDidMount() {
@@ -53,7 +53,7 @@ class Reviews extends React.Component {
 
   fetch() {
     $.ajax({
-      url: 'http://127.0.0.1:3004/v1/product/10/reviews',
+      url: `http://127.0.0.1:3004/v1/product/${this.state.id}/reviews`,
       method: 'GET',
       success: (reviewsData) => {
         console.log('successfully got review data', reviewsData);
@@ -63,7 +63,7 @@ class Reviews extends React.Component {
         });
         this.averageReview();
         this.totalStars();
-        console.log(this.state.rating, 'inside ajax');
+        console.log(this.state.id, 'inside ajax with id');
       },
       error: () => {
         console.error('failed to fetch reviews');
