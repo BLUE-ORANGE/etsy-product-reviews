@@ -1,13 +1,13 @@
 const Sequelize = require('sequelize');
 require('dotenv').config();
 
-// const sqlz = new Sequelize(process.env.DB_HOST);
+const sqlz = new Sequelize(process.env.DB_HOST);
 
-const sqlz = new Sequelize('etsy-richard', 'student', 'student', {
-  host: 'localhost',
-  port: 5432,
-  dialect: 'postgres',
-});
+// const sqlz = new Sequelize('etsy-richard', 'student', 'student', {
+//   host: 'localhost',
+//   port: 5432,
+//   dialect: 'postgres',
+// });
 
 const Review = sqlz.define(
   'reviews', {

@@ -9,7 +9,7 @@ class Reviews extends React.Component {
     super(props);
     this.state = {
       reviews: [],
-      id: 0,
+      id: 10,
       rating: 0,
       stars: [],
       noStars: [],
@@ -53,7 +53,7 @@ class Reviews extends React.Component {
 
   fetch() {
     $.ajax({
-      url: `http://localhost:3004/v1/product/${this.state.id}/reviews`,
+      url: `/v1/product/${this.state.id}/reviews`,
       method: 'GET',
       success: (reviewsData) => {
         console.log('successfully got review data', reviewsData);
