@@ -4,9 +4,10 @@ services:
     image: hirichardhai/product-reviews:latest
     ports:
       - 5432:5432
-      - 3004:3004
+      - 80:80
     environment:
       DB_HOST: postgres://student:student@db/etsy-richard
+      PORT: 80
 
   db:
     image: postgres:10.2
