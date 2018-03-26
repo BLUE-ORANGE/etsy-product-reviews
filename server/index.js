@@ -12,6 +12,7 @@ app.use(cors());
 app.use(morgan('combined'));
 // app.use(bodyParser.text());
 
+
 app.use(express.static(path.join(__dirname, '/../src/client/')));
 
 app.use('/v1/product', storyRouter);
