@@ -92,4 +92,5 @@ const seedData = () => {
 
 seedData();
 
+
 console.log('hey tried to seed data');
