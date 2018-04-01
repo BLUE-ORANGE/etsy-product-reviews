@@ -10,7 +10,6 @@ const App = () => (
     <Reviews />
   </div>
 );
-
 // ReactDOM.render(<App />, document.getElementById('app'));
 
 export default ReactDOM.render(<App />, document.getElementById('reviews'));
