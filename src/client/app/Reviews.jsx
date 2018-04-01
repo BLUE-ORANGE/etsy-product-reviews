@@ -18,7 +18,6 @@ class Reviews extends React.Component {
   }
 
   componentWillMount() {
-    // this.random();
     const idPathname = window.location.pathname.slice(12, window.location.pathname.length - 1);
     this.setState({
       id: Number(idPathname),
