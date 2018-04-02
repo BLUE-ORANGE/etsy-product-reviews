@@ -89,5 +89,6 @@ const seedData = () => {
     .catch(err => console.error('failed', err)))
     .catch(err => console.log('failed', err));
 };
+
 seedData();
 console.log('hey tried to seed data');
