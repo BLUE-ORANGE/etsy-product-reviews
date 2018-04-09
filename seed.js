@@ -2,7 +2,6 @@ const Sequelize = require('sequelize');
 require('dotenv').config();
 
 let sqlz = new Sequelize(process.env.DB_HOST);
-//should work
 
 const Review = sqlz.define(
   'reviews', {
