@@ -1,0 +1,587 @@
+[33mcommit fbc90302aa51ba9814b5cfdbb35b064257c6b160[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: hiRichardHai <hirichardhai@gmail.com>
+Date:   Sun Apr 8 22:42:57 2018 -0700
+
+    fixed seed.js
+
+[33mcommit b80559c7c24e7a0ec2d5bca4a1520f88e108f42b[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sun Apr 1 22:50:07 2018 -0700
+
+    final update
+
+[33mcommit e4c8322e553ed80d06a3e89754bd6b2abea8d97d[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sun Apr 1 22:49:52 2018 -0700
+
+    fixed seed.js syntax7
+
+[33mcommit c12ff2763396c4f4d83f156fc23f076d2f35d1fd[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sun Apr 1 22:49:45 2018 -0700
+
+    fixed seed.js syntax6
+
+[33mcommit 9c51d3a344589b87e63cc661356d12ee3be904d9[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sun Apr 1 22:49:37 2018 -0700
+
+    fixed seed.js syntax5
+
+[33mcommit a5e7347f8d46492fc3c11b9b481550cc446d2a06[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sun Apr 1 22:49:31 2018 -0700
+
+    fixed seed.js syntax4
+
+[33mcommit 48784bdf605fd65f1bbe15dfb3176c79ce43a34a[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sun Apr 1 22:47:33 2018 -0700
+
+    fixed seed.js syntax3
+
+[33mcommit 84f04f1a8c96a96315ca4d67cc2955a9fd0adb88[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sun Apr 1 22:47:27 2018 -0700
+
+    fixed seed.js syntax3
+
+[33mcommit 173a1abd2aa0e1d6531b66c51e9d3cef8bba8a93[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sun Apr 1 22:47:20 2018 -0700
+
+    fixed seed.js syntax3
+
+[33mcommit e1e5c7fccd0223080f4ff97963db643287c9c570[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sun Apr 1 22:47:10 2018 -0700
+
+    fixed seed.js syntax2
+
+[33mcommit cd080d51c1c816aff6f279783337fbc0a682387d[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sun Apr 1 22:47:03 2018 -0700
+
+    fixed seed.js syntax2
+
+[33mcommit cd1384dbe6ab3a31673dae8342e3a9eab522865c[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 31 18:39:18 2018 -0700
+
+    fixed seed.js syntax2
+
+[33mcommit d58123064494f24f3cb34f5ac61b9912f58ac33c[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 31 18:39:13 2018 -0700
+
+    fixed seed.js syntax2
+
+[33mcommit fc818133f2cfc31130fe863ed3b983bf55c0c962[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 31 18:39:06 2018 -0700
+
+    fixed seed.js syntax
+
+[33mcommit b6a922132d47bdc2e9a3641e46d5c3a19ecdb16e[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 31 18:37:19 2018 -0700
+
+    removed public folder
+
+[33mcommit 90a64520180cead21a6e6820b4874f54574df0f2[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 31 18:37:00 2018 -0700
+
+    fixed spacing in index.js in database
+
+[33mcommit 9487bd953a2d59989b5d11fc28a6740b24390bca[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 31 18:36:13 2018 -0700
+
+    fixed sequelize old query functions
+
+[33mcommit 823dac80a7d6f07492e7818e158d351448eb90c1[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 31 18:35:36 2018 -0700
+
+    commented out style sheet for index.html for css module rendering
+
+[33mcommit 07e09eaf8190fd925d88fcb3567bc952f274caa2[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 31 18:35:07 2018 -0700
+
+    updated router.route server route
+
+[33mcommit ff6df76c45974fac53d8b77ec50692f52b204556[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 31 18:34:49 2018 -0700
+
+    fixed syntax for nostars.jsx
+
+[33mcommit 0b4164d324a51968d98c3bd216bc57713faa4234[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 31 18:34:28 2018 -0700
+
+    fixed the component will mount to not use random
+
+[33mcommit 9234eacab361a685ec239ca37b973269a4f576a2[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 31 18:33:48 2018 -0700
+
+    fixed airbnb for star.jsx
+
+[33mcommit 9cb75a74619eb61230545a93ea523227b5a82a2e[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 31 18:33:25 2018 -0700
+
+    removed global rendering comment in index.jsx
+
+[33mcommit d9834e2e949588e5b0cedb8d982bff04d9af154b[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 31 18:33:08 2018 -0700
+
+    fixed index.jsx rendering part
+
+[33mcommit 57b246b001bb69b744ebe6d636d9ca7cb7503797[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Tue Mar 27 20:07:30 2018 -0700
+
+    fixed typos in index.js
+
+[33mcommit be211c4d5114014ff4acf56028e6df0ec1e42638[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sun Mar 25 23:18:27 2018 -0700
+
+    fixed server route
+
+[33mcommit e389c7f15a1040f99917e4c3fdd745da84c00d6d[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Mar 15 16:54:08 2018 -0700
+
+    updated error
+
+[33mcommit 4067a7a6469a920aa26262d14dbb455673e37b0c[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Tue Mar 13 10:42:24 2018 -0700
+
+    final update for docker/ proxy
+
+[33mcommit a41fe2f3de1caff2efa62ebbcb0f010eec729bee[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Mon Mar 12 20:59:38 2018 -0700
+
+    working component for AWS
+
+[33mcommit e67defcf457eea1204ef0f602cc98fce10eda2c4[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Mon Mar 12 16:52:39 2018 -0700
+
+    updated for docker
+
+[33mcommit 59954e2c92d19a900c1a83d5dd9fca35c7b849bb[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 10 09:46:38 2018 -0800
+
+    final working component for PROXY-SERVER only
+
+[33mcommit c35f4af0522a23831ed5c8cc0a14222c96e8eb89[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 10 09:34:10 2018 -0800
+
+    for sure working component for docker
+
+[33mcommit 8fec060de9e7d649c9629031290076d0c786e6c2[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Mar 8 19:47:55 2018 -0800
+
+    working component for docker
+
+[33mcommit 37ba403bcc2391b053dc562db6ef9ff35fe8cf71[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Mar 8 17:16:16 2018 -0800
+
+    maybe working copy before docker container creation
+
+[33mcommit 019dfa02f90eab3f58e22ba7db15431b9b1419e1[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Wed Mar 7 10:05:53 2018 -0800
+
+    final update for teammates proxy servers
+
+[33mcommit 4df5cba7580f822341d78bee2d9957562b91aa02[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Wed Mar 7 10:04:48 2018 -0800
+
+    typos
+
+[33mcommit e98582dc852da4882e24c7fbc66c5c9582e32deb[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Mon Mar 5 19:57:14 2018 -0800
+
+    updated css into webpack
+
+[33mcommit b55cb115a9a73ef443387312460e593d8d490dad[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Mon Mar 5 19:11:18 2018 -0800
+
+    working for proxy server
+
+[33mcommit 1669af4f2aac71a96076f701d512863470912a50[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Mon Mar 5 17:11:27 2018 -0800
+
+    edited component for proxy server rendering
+
+[33mcommit 5a07372baa1cad92f7d1d1ee9249e1afcb500b0b[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Mon Mar 5 15:06:29 2018 -0800
+
+    hover
+
+[33mcommit b4c9c8d4a9666e6e7acdf72d0c12653219903750[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Mon Mar 5 14:41:59 2018 -0800
+
+    small syntax changes
+
+[33mcommit 761b047fb16d75c28e9a6ada8015745b5918ea84[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 3 14:51:15 2018 -0800
+
+    added unique IDs serving thumbnails
+
+[33mcommit cefac7bc7f3288f9b1338b72f7df07497b54d800[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 3 14:44:33 2018 -0800
+
+    added unique api routes
+
+[33mcommit 3842f6b29cf2de95f542cc3d4b07724529298676[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Sat Mar 3 13:56:16 2018 -0800
+
+    able to server HTML file to any v1/products/id
+
+[33mcommit 9e7f8d6237b304f709acd35f154b511b28deea22[m
+Merge: 9961e33 5972d9c
+Author: Richard <33816291+hirichardhai@users.noreply.github.com>
+Date:   Fri Mar 2 17:58:47 2018 -0800
+
+    Merge pull request #8 from BLUE-ORANGE/feat/rest_of_frontend
+    
+    Feat/rest of frontend
+
+[33mcommit 5972d9c371ff9aafe84e53d5e00d424f75ab2c78[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Fri Mar 2 16:38:50 2018 -0800
+
+    completed front end similarities
+
+[33mcommit 008b2e55f9b3fbcc3f9a3762f566e85b01eeb2b1[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Fri Mar 2 16:21:11 2018 -0800
+
+    everything almost as desired
+
+[33mcommit a1fed899830321701122b70bc3e13bae44900465[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Fri Mar 2 15:08:57 2018 -0800
+
+    added teammates pictures. fixed wifth nad height issues with userinfo and other stuff
+
+[33mcommit 6690397ad94b42a6dea446f3fbc37911d2fe2031[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Fri Mar 2 14:40:55 2018 -0800
+
+    added thumbnails, render hardcoded thumbnail
+
+[33mcommit 9961e3364ea5f8ab5546c01a71c608dbb583176d[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Fri Mar 2 14:04:13 2018 -0800
+
+    properly seeded new data into client review component
+
+[33mcommit 1ed261f45cd247d7a2d9d7dc679a153b85e560ef[m
+Merge: aa72d2c c0b0313
+Author: Richard <33816291+hirichardhai@users.noreply.github.com>
+Date:   Fri Mar 2 10:36:06 2018 -0800
+
+    Merge pull request #7 from BLUE-ORANGE/change_database_and_schema
+    
+    added dates and item reviews to schema and loaded into database new r…
+
+[33mcommit aa72d2c42fadd875fc59eb18cd7998372d154018[m
+Merge: 9580751 9b1fe7b
+Author: Richard <33816291+hirichardhai@users.noreply.github.com>
+Date:   Fri Mar 2 09:46:11 2018 -0800
+
+    Merge pull request #6 from BLUE-ORANGE/feat/front_end_time
+    
+    Feat/front end time
+
+[33mcommit c0b0313fa14da5f3165019d0d5ef5445506cb393[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Fri Mar 2 00:56:57 2018 -0800
+
+    added dates and item reviews to schema and loaded into database new reviews
+
+[33mcommit 9b1fe7b5e9085636dd38b92a957c96b5eb7c8550[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Mar 1 23:16:20 2018 -0800
+
+    fixed thumbnail on the left and review locked in on right
+
+[33mcommit 923c5fa4dca9403e86f105ace6f46384630e150f[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Mar 1 22:34:14 2018 -0800
+
+    created skeleton
+
+[33mcommit 0335973a68123f03fe48a7b47566f9fb2bcbe7ed[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Mar 1 22:02:20 2018 -0800
+
+    added stars to total overall review. added padding to totalReviews div
+
+[33mcommit d594fab50d26baa6aaa42a14f73871f356839e32[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Mar 1 21:49:59 2018 -0800
+
+    finished star ratings
+
+[33mcommit 842560aec56a0b2f32a62337100190b7659b3580[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Mar 1 21:44:58 2018 -0800
+
+    added noStars component
+
+[33mcommit 520f39a117a31b4aff185ce65f1fac8f374be9fa[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Mar 1 21:40:44 2018 -0800
+
+    correctly render star rating with color properly
+
+[33mcommit 4deceb0fa5eef12fcc61a94f77c1c842dd7f7c67[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Mar 1 20:51:59 2018 -0800
+
+    added star component
+
+[33mcommit 7444ed89d769e0f3966554a1c1904ec4c951c11d[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Mar 1 19:57:31 2018 -0800
+
+    loaded proper etsy font
+
+[33mcommit dcde971f3462fdcb9d023a5e6eda7e8ef4323272[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Mar 1 18:41:04 2018 -0800
+
+    added flat to dates div
+
+[33mcommit 4c6ff107e1388cffa1d4fac28b7cae74997c3bc2[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Mar 1 18:35:55 2018 -0800
+
+    working out review skeleton
+
+[33mcommit e9ca600b474a1fe30e162d8ac77e30b9a5a03421[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Mar 1 18:17:25 2018 -0800
+
+    added styles.css. added ids to divs. semi appropriate total reviews bar. rendering actual data on dom
+
+[33mcommit 958075193411fb0695f9f67898ed238aa1a9bd7e[m
+Merge: a94bc4b 8951f94
+Author: Richard <33816291+hirichardhai@users.noreply.github.com>
+Date:   Wed Feb 28 17:19:04 2018 -0800
+
+    Merge pull request #5 from BLUE-ORANGE/feat/create_restful_api
+    
+    gave up on unique URLs. now serving random IDs from SQL
+
+[33mcommit 8951f949045cfc31158d7814f79ed9fb9342b275[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Wed Feb 28 16:52:09 2018 -0800
+
+    gave up on unique URLs. now serving random IDs from SQL
+
+[33mcommit a94bc4bb41482eda759d9f12ac2df0d5a29e315c[m
+Merge: 410c76b 22643c7
+Author: Richard <33816291+hirichardhai@users.noreply.github.com>
+Date:   Wed Feb 28 14:52:42 2018 -0800
+
+    Merge pull request #4 from BLUE-ORANGE/feat/fix_readme_and_reviews_state
+    
+    Feat/fix readme and reviews state
+
+[33mcommit 22643c7e98f61fb4ed172e179d97e85814a19850[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Wed Feb 28 10:40:13 2018 -0800
+
+    dynamically render 3 review components depending on reviews data state
+
+[33mcommit e3d4015afafe2667e5001ee8a523bb40dfd13432[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Wed Feb 28 10:13:12 2018 -0800
+
+    fixed readme issues
+
+[33mcommit 410c76bc3d1e73d30edae650e575f14ef40161dc[m
+Merge: 3b92f6c 125d326
+Author: Richard <33816291+hirichardhai@users.noreply.github.com>
+Date:   Wed Feb 28 10:07:52 2018 -0800
+
+    Merge pull request #3 from BLUE-ORANGE/make_tests
+    
+    working review components, 1-200 API routes, jest/ enzyme setup with passing test
+
+[33mcommit 125d326dab1f43f67d77545d14eab32a310a9323[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Wed Feb 28 02:37:17 2018 -0800
+
+    fixed errors in database/index.js
+
+[33mcommit cd05c08ace9c9b273724d6d846100ff15caf8016[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Wed Feb 28 02:30:01 2018 -0800
+
+    grabbing and storing data in state works
+
+[33mcommit 2517e1c91ec59b88fbb366e8e9270903924e1992[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Wed Feb 28 02:28:18 2018 -0800
+
+    got working test with jest for database confirmation
+
+[33mcommit aea73d6cc4b7b981ad25b941b3657b4db644fb3f[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Wed Feb 28 01:12:41 2018 -0800
+
+    working ajax fetch for non-unique reviews for locked value
+
+[33mcommit 3dedeaf88a94279c0bdf573640d923223eb25269[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Wed Feb 28 01:09:45 2018 -0800
+
+    added ajax get for reviews from server
+
+[33mcommit 9e9a81bfd3b62ce2fd129d6713aeb7a5bff8d90f[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Wed Feb 28 00:56:46 2018 -0800
+
+    creating tests environemtn
+
+[33mcommit 2e97be52b74113ec334f525560ba5aabd28c25de[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Mon Feb 26 21:16:13 2018 -0800
+
+    fixed up synxtax, deleted client folder
+
+[33mcommit 19a8c7b85486afea0b46e7ad91f31c24ed1b836e[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Mon Feb 26 21:06:56 2018 -0800
+
+    fixed airbnb styling.added api server 0-199 pathname
+
+[33mcommit 3b92f6c652cf43281ea8af1b0c8f9194bed6f6a6[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Mon Feb 26 18:24:40 2018 -0800
+
+    added information for unit testing
+
+[33mcommit 5e115f07267cd926323ba98ee415f1052580e71a[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Mon Feb 26 18:16:03 2018 -0800
+
+    added test folder, enzyne, and jest to do unit testing
+
+[33mcommit ec93dda1ebcde10e19ec3d3b716cf4969eca0bb2[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Mon Feb 26 16:13:22 2018 -0800
+
+    finished editing for airbnb style guide
+
+[33mcommit b846aa812a8feb65d4fea86d7a1f87c744cd3947[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Mon Feb 26 14:51:20 2018 -0800
+
+    updated readme
+
+[33mcommit 65749fa0d006daa430c8f049e8af4fe3d8ee62bb[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Fri Feb 23 19:48:31 2018 -0800
+
+    setting up api routes
+
+[33mcommit dc8820949a357649e3615414a123ad10a82a24aa[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Fri Feb 23 19:12:38 2018 -0800
+
+    successfully added seed.js to store 600 reviews into my database
+
+[33mcommit ad1f584d4b430f5cc369f236a5fcea9320a9e3bc[m
+Merge: bf50d21 61ada50
+Author: Richard <33816291+hirichardhai@users.noreply.github.com>
+Date:   Fri Feb 23 17:23:15 2018 -0800
+
+    Merge pull request #2 from BLUE-ORANGE/feat.cleaning-up-code
+    
+    Feat.cleaning up code
+
+[33mcommit 61ada50c8152aa254b75ea03c877351e84d8ad92[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Fri Feb 23 17:15:18 2018 -0800
+
+    cleaned up code and created fake data
+
+[33mcommit ea24499283123b21ba8fe2a1fea0944197677468[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Fri Feb 23 10:21:22 2018 -0800
+
+    added babel watch command. modularized my react components and created files
+
+[33mcommit bf50d21d9d5de54b2214022e7f554ed33c8e5652[m
+Merge: 6d155aa c971a49
+Author: Richard <33816291+hirichardhai@users.noreply.github.com>
+Date:   Thu Feb 22 19:45:26 2018 -0800
+
+    Merge pull request #1 from BLUE-ORANGE/feat/DataStructure
+    
+    Feat/data structure
+
+[33mcommit 6d155aad25c007356321062f0bc1492880f6f927[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Feb 22 19:13:31 2018 -0800
+
+    added package.json dependencies
+
+[33mcommit fdd0007234d227d1363abac5ccdecef20078d38c[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Feb 22 19:01:11 2018 -0800
+
+    added circleCI support
+
+[33mcommit c971a4911113d1f5eb3f08ad34854adeb658bd03[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Feb 22 18:57:07 2018 -0800
+
+    attempting to branch
+
+[33mcommit 0523a6f18d71b3cb9b87afbae1f0e6bc6c26d4fa[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Thu Feb 22 18:56:50 2018 -0800
+
+    first update
+
+[33mcommit 186d4a7240692aaa6742e2a4e9deef20644dff80[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Wed Feb 21 12:17:37 2018 -0800
+
+    initial setup
+
+[33mcommit 165d25dc617c66bff264e831e9bef89387be65b1[m
+Author: Richard Hai <hirichardhai@gmail.com>
+Date:   Wed Feb 21 12:16:36 2018 -0800
+
+    test
