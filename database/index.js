@@ -7,19 +7,16 @@ const sqlz = new Sequelize('etsy-richard', 'student', 'student', {
   dialect: 'postgres',
 });
 
-const Review = sqlz.define(
-  'reviews', {
-    review: Sequelize.TEXT,
-    rating: Sequelize.INTEGER,
-    userName: Sequelize.TEXT,
-    productId: Sequelize.INTEGER,
-    itemReview: Sequelize.TEXT,
-    date: Sequelize.TEXT,
-  },
-  {
-    schema: 'public',
-  },
-);
+const Review = sqlz.define('reviews', {
+  review: Sequelize.TEXT,
+  rating: Sequelize.INTEGER,
+  userName: Sequelize.TEXT,
+  productId: Sequelize.INTEGER,
+  itemReview: Sequelize.TEXT,
+  date: Sequelize.TEXT,
+}, {
+  schema: 'public',
+});
 
 const getReviewsForProduct = (id, cb) => Review.findAll({
   where: {
