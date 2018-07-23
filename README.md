@@ -90,3 +90,5 @@ npm install
 ```
 
 # etsy-product-reviews
+
+> This project represents an Etsy product page review section. This repo contains 4 microservices which render both client & server-side modules that contribute to a full Etsy product page.
